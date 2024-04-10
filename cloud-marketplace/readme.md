@@ -10,5 +10,5 @@ and tuned for various uses.
 
 The Enterprise Edition of Titan SysLog been preconfigured with all features enabled.
 
-| [Linux 64-bit](https://github.com/southrivertech/titansyslog.pub/tree/main/cloud-marketplace/linux-x64) | [Windows 64-bit](https://github.com/southrivertech/titansyslog.pub/tree/main/cloud-marketplace/win-x64) |
+| [Linux 64-bit](https://github.com/southrivertech/titansyslog.pub/tree/main/cloud-marketplace/linux-x64) | [Windows 64-bit]([https://github.com/southrivertech/titansyslog.pub/tree/main/cloud-marketplace/win-x64](https://github.com/southrivertech/titansyslog.pub/blob/main/cloud-marketplace/win-x64/gettingstarted.md)) |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
