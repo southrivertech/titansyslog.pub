@@ -10,7 +10,7 @@ This Titan SysLog Server Virtual Machine (VM) contains a pre-built and pre-confi
 
 Titan SysLog Server can be used to monitor your servers and collect, monitor and analyze syslog messages.
 
-## Getting Started
+## Usage Instructions / Getting Started 
 
 1. Launch your VM or instance and RDP into the Windows server with your chosen credentials (specified when creating the VM)
 2. Launch the Titan SysLog Server Administrator UI by clicking on the desktop icon for the Titan SysLog Server. The first time you run the Administrator it will prompt you to create a new Administrator account to allow configuring the Titan SysLog Server.
