@@ -8,17 +8,17 @@ This Titan SysLog Server Virtual Machine (VM) contains a pre-built and pre-confi
 
 ## Features of Titan SysLog Server
 
-Titan SysLog Server can be used to monitor your servers and collect, monitor and analyze syslog messages.
+Titan SysLog Server can be used to monitor your servers and collect, monitor and analyze syslog messages sent from clients.
 
 ## Getting Started
 
-Once you have securely connected to the instance over SSH, the initial Titan SysLog administrator account needs to be configured. To configure the Titan SysLog administrator account, use the following command and supply your new administrator credentials. It's imporant to use a complex password consisting of a minimum of 8 characters in length, both upper and lower case, one or more numbers, and one or more special characters consisting of the following characters "(~!@#$%^&*_-+=`|\\(){}[]:;\"'<>,.?/)"
+Once you have securely connected to the instance over SSH, the initial Titan SysLog administrator account needs to be configured. To configure the Titan SysLog administrator account, use the following command and supply your new administrator credentials. It's imporant to use a complex password consisting of a minimum of 8 characters in length, both upper and lower case, one or more numbers, and one or more special characters consisting of the following characters "(~!@#$%^&*_-+=`|\\(){}[]:;\"'<>,.?/)", and it must not included the username in the password.
 
 ```
 sudo /opt/southriver/slserver/slserver /LASINIT /username=`<admin-username>` /password=`<admin-password>`
 ```
 
-Once the Titan SysLog administrative credentials have been established you can hit control-C to exit the account creation command and return to the shell> You can now connect to the Titan SysLog web-based admin console through your web-browser by pointing it to https://`<ipaddress>`:44443.
+Once the Titan SysLog administrative credentials have been established you can now connect to the Titan SysLog web-based admin console through your web-browser by pointing it to https://`<ipaddress>`:44443.
 
 Note that this is a secure connection. However, since Titan SysLog is using a temporary certificate, you will see a security warning in the browser. Proceed past the security warning and log in to the Titan SysLog Server Admin console. At this point you will be able to configure the Titan SysLog application including adding your own TLS certificate. To import your own certificate click on "Manage Certificate" in the "Local Domain" section to import your certificate, then select this certificate from the list in the domain dialog (click on edit action).
 
