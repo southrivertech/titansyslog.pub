@@ -10,6 +10,15 @@ This Titan SysLog Server Virtual Machine (VM) contains a pre-built and pre-confi
 
 Titan SysLog Server can be used to monitor your servers and collect, monitor and analyze syslog messages sent from clients.
 
+## Events
+
+You can configure Titan SysLog server with events that can trigger when certain sys log messages are received that either contain a keyword or phrase, or certain error code, or error level and then perform various actions:
+
+1. Send an email when a syslog message is received.
+2. Spawn a task or script to perform an action
+3. Write to a log file   
+
+
 ## Usage Instructions / Getting Started
 
 1) Connect securely to your AMI instance over SSH using your own keypair.
