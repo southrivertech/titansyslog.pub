@@ -16,6 +16,14 @@ Titan SysLog Server can be used to monitor your servers and collect, monitor and
 2. Launch the Titan SysLog Server Administrator UI by clicking on the desktop icon for the Titan SysLog Server. The first time you run the Administrator it will prompt you to create a new Administrator account to allow configuring the Titan SysLog Server.
 3. To configure the syslog server click on the "Services" tab node under the "Default SysLog Server" instance. From here you can see that the server is preconfigured to listen on TCP port 514 for syslog messages. In addition to logging to the file you can enable logging to a sqlite database. To view syslog messages in real time click on the "Logging" node and then "SysLog Viewer" tab.
 
+## Events
+
+You can configure Titan SysLog server with events that can trigger when certain sys log messages are received that either contain a keyword or phrase, or certain error code, or error level and then perform various actions:
+
+1. Send an email when a syslog message is received.
+2. Spawn a task or script to perform an action
+3. Write to a log file   
+
 ## Remote Administration
 
 Titan SysLog server can optionally be configured to remotely configure the server via web interface by enabling "Remote Administration". To enable remote administration click on "Home" node on the left of the admin control panel, then in the "Local Domain" section click on Edit action icon and turn on the option for "Enable Remote Admin". After enabling this you will need to restart the Titan SysLog Service from Windows services. When using the default certficicate for remote administration the browser will complain about the certificate not being trusted, you can ignore this warning and select continue or confiure Titan SysLog server to use your own certificate to match your domain name. To import your own certificate click on "Manage Certificate" in the "Local Domain" section to import your certificate, then select this certificate from the list in the domain dialog (click on edit action).
