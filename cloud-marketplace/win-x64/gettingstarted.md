@@ -14,7 +14,7 @@ Titan SysLog Server can be used to monitor your servers and collect, monitor and
 
 1. Launch your VM or instance and RDP into the Windows server with your chosen credentials (specified when creating the VM)
 2. Launch the Titan SysLog Server Administrator UI by clicking on the desktop icon for the Titan SysLog Server. The first time you run the Administrator it will prompt you to create a new Administrator account to allow configuring the Titan SysLog Server.
-3. To configure the syslog server click on the "Services" tab node under the "Default SysLog Server" instance. From here you can see that the server is preconfigured to listen on TCP port 514 for syslog messages. In addition to logging to the file you can enable logging to a sqlite database. To view syslog messages in real time click on the "Logging" node and then "SysLog Viewer" tab.
+3. To configure the syslog server click on the "Services" tab node under the "Default SysLog Server" instance. From here you can see that the server is preconfigured to listen on UDP port 514 for syslog messages. You can also enable TLS logging to the server. In addition to logging to the file you can enable logging to a sqlite database. To view syslog messages in real time click on the "SysLog" node.
 
 ## Events
 
