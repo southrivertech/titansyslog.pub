@@ -28,8 +28,12 @@ You can configure Titan SysLog server with events that can trigger when certain 
 sudo /opt/southriver/slserver/slserver /LASINIT /username=`<admin-username>` /password=`<admin-password>`
 ```
 
-3) Once the Titan SysLog administrative credentials have been established you can now connect to the Titan SysLog web-based admin console through your web-browser by pointing it to https://`<ipaddress>`:44443. Note that this is a secure connection. However, since Titan SysLog is using a temporary certificate, you will see a security warning in the browser. Proceed past the security warning and log in to the Titan SysLog Server Admin console. At this point you will be able to configure the Titan SysLog application including adding your own TLS certificate. To import your own certificate click on "Manage Certificate" in the "Local Domain" section to import your certificate, then select this certificate from the list in the domain dialog (click on edit action).
+3) Once the Titan SysLog administrative credentials have been established you can now connect to the Titan SysLog web-based admin console through your web-browser by pointing it to https://`<ipaddress>`:44443. Note that this is a secure connection. However, since Titan SysLog is using a temporary certificate, you will see a security warning in the browser. Proceed past the security warning and log in to the Titan SysLog Server Admin console. At this point you will be able to configure the Titan SysLog application including adding your own TLS certificate if you wish. To import your own certificate click on "Manage Certificate" in the "Local Domain" section to import your certificate, then select this certificate from the list in the domain dialog (click on edit action).
 
+## Configuration
+
+To configure the syslog server click on the "Services" tab node under the "Default SysLog Server" instance. From here you can see that the server is preconfigured to listen on UDP port 514 for syslog messages. You can also enable TLS logging to the server. In addition to logging to the file you can enable logging to a sqlite database. To view syslog messages in real time click on the "SysLog" node.
+ 
 ## Database and Files location
 
 The Titan database location is /var/southriver/slserver/database. The SysLog logging locations can be configured in the Titan Administrator user interface.
