@@ -25,7 +25,7 @@ You can configure Titan SysLog server with events that can trigger when certain 
 2) Once you are connected to the instance terminal session the initial Titan SysLog administrator account needs to be configured. To configure the Titan SysLog administrator account, use the following command and supply your new administrator credentials. It's imporant to use a complex password consisting of a minimum of 8 characters in length, both upper and lower case, one or more numbers, and one or more special characters consisting of the following characters "(~!@#$%^&*_-+=`|\\(){}[]:;\"'<>,.?/)", and it must not included the username in the password.
 
 ```
-sudo /opt/southriver/slserver/slserver /LASINIT /username=`<admin-username>` /password=`<admin-password>`
+sudo /opt/southriver/slserver/slserver /LASINIT /username='<admin-username>' /password='<admin-password>'
 ```
 3) After the password hase been created you can hit control-c to return to the shell.
 
