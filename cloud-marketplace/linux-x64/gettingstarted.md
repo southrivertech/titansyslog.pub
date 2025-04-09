@@ -1,22 +1,10 @@
-# <img src="https://srtcdnstorage.blob.core.windows.net/software/nextgen/slserver/titansyslog48.png" alt="Titan SysLog Server logo"> Titan SysLog Server - Enterprise Cloud Edition for Linux </img>
+# <img src="https://srtcdnstorage.blob.core.windows.net/software/nextgen/slserver/titansyslog48.png" alt="Titan Syslog Server logo"> Titan Syslog Server - Cloud Edition for Linux </img>
 
-Thank you for choosing Titan SysLog Server - Cloud Edition from South River Technologies. This is the Pay-as-you-go version of our solution, meaning that it will run fully featured without the need to purchase a license from South River Technologies. Simply fire up your Titan SysLog Server VM, and run your business.
+Thank you for choosing Titan Syslog Server - Cloud Edition from South River Technologies. This is the Pay-as-you-go version of our solution, meaning that it will run fully featured without the need to purchase a license from South River Technologies. Simply fire up your Titan SysLog Server VM, and run your business.
 
 ## What's on the VM?
 
-This Titan SysLog Server Virtual Machine (VM) contains a pre-built and pre-configured installation of the product.
-
-## Features of Titan SysLog Server
-
-Titan SysLog Server can be used to monitor your servers and collect, monitor and analyze syslog messages sent from clients.
-
-## Events
-
-You can configure Titan SysLog server with events that can trigger when certain sys log messages are received that either contain a keyword or phrase, or certain error code, or error level and then perform various actions:
-
-1. Send an email when a syslog message is received.
-2. Spawn a task or script to perform an action
-3. Write to a log file   
+This Titan Syslog Server Virtual Machine (VM) contains a pre-built and pre-configured installation of the product.
 
 
 ## Usage Instructions / Getting Started
@@ -31,13 +19,25 @@ sudo /opt/southriver/slserver/slserver /LASINIT /username='<admin-username>' /pa
 
 4) Once the Titan SysLog administrative credentials have been established you can now connect to the Titan SysLog web-based admin console through your web-browser by pointing it to https://`<ipaddress>`:44443. Note that this is a secure connection. However, since Titan SysLog is using a temporary certificate, you will see a security warning in the browser. Proceed past the security warning and log in to the Titan SysLog Server Admin console. At this point you will be able to configure the Titan SysLog application including adding your own TLS certificate if you wish. To import your own certificate click on "Manage Certificate" in the "Local Domain" section to import your certificate, then select this certificate from the list in the domain dialog (click on edit action).
 
+## Features of Titan SysLog Server
+
+Titan Syslog Server can be used to monitor your servers and collect, monitor and analyze syslog messages sent from clients.
+
+## Events
+
+You can configure Titan SysLog server with events that can trigger when certain sys log messages are received that either contain a keyword or phrase, or certain error code, or error level and then perform various actions:
+
+1. Send an email when a syslog message is received.
+2. Spawn a task or script to perform an action
+3. Write to a log file   
+
 ## Configuration
 
 To configure the syslog server click on the "Services" tab node under the "Default SysLog Server" instance. From here you can see that the server is preconfigured to listen on UDP port 514 for syslog messages. You can also enable TLS logging to the server. In addition to logging to the file you can enable logging to a sqlite database. To view syslog messages in real time click on the "SysLog" node.
  
 ## Database and Files location
 
-The Titan database location is /var/southriver/slserver/database. The SysLog logging locations can be configured in the Titan Administrator user interface.
+The Titan Syslog database location is /var/southriver/slserver/database. The Syslog logging locations can be configured in the Titan Administrator user interface.
 
 ## Upgrading
 
