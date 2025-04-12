@@ -9,7 +9,7 @@ This Titan Syslog Server Virtual Machine (VM) contains a pre-built and pre-confi
 
 ## Usage Instructions / Getting Started
 
-1) Connect securely to your vm instance over SSH using your own keypair.
+1) Connect securely to your vm instance over SSH using your own keypair, or via the Azure or EC2 console.
 2) Once you are connected to the instance terminal session the initial Titan Syslog administrator account needs to be configured. To configure the Titan Syslog administrator account, use the following command and supply your new administrator credentials. It's imporant to use a complex password consisting of a minimum of 8 characters in length, both upper and lower case, one or more numbers, and one or more special characters consisting of the following characters "(~!@#$%^&*_-+=`|\\(){}[]:;\"'<>,.?/)", and it must not included the username in the password.
 
 ```
